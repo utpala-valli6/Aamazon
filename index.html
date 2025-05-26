@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register</title>
+  <style>
+    body {
+      
+      margin: 0;
+      padding: 0;
+      background-image: url("data:image/jpeg;base64,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");
+      background-size: cover;
+      font-family: Arial, sans-serif;
+    }
+
+    .form-container {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(4px);
+      padding: 40px;
+      width: 400px;
+      margin: 50px auto;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+      color: rgb(255, 255, 255);
+      margin-top: -1px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: none;
+      border-radius: 5px;
+    }
+
+    input[type="radio"] {
+      width: auto;
+      margin-right: 10px;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: rgb(75, 63, 63);
+      color: rgb(255, 255, 255);
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #ccc;
+    }
+
+    .login-link {
+      text-align: center;
+      margin-top: 15px;
+    }
+
+    .login-link a {
+      color: rgb(59, 30, 201);
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h2>Register</h2>
+    <form action="login.html" method="get">
+      <label>Name:</label>
+      <input type="text" required />
+
+      <label>Email:</label>
+      <input type="email" required />
+
+      <label>Password:</label>
+      <input type="password" required />
+
+      <label>Confirm Password:</label>
+      <input type="password" required />
+
+      <label>Mobile No:</label>
+      <input type="number" required />
+
+      <label>Date of Birth:</label>
+      <input type="date" required />
+
+      <label>Gender:</label>
+      <input type="radio" name="gender" /> Male
+      <input type="radio" name="gender" /> Female
+
+      <label>Address:</label>
+      <textarea required></textarea>
+
+      <button type="submit">Submit</button>
+
+      <div class="login-link">
+        Already have an account? <a href="login.html">Login here</a>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
