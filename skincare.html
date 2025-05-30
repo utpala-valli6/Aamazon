@@ -56,12 +56,53 @@
     .rating {
       color: #ff9800;
       font-size: 14px;
+      margin-bottom: 10px;
     }
+
+    .buttons {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+    }
+
+    .buy-now,
+    .add-to-cart {
+      padding: 7px 14px;
+      font-size: 0.9em;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      color: white;
+      transition: background-color 0.3s ease;
+    }
+
+    .buy-now {
+      background-color: #ff5722;
+    }
+
+    .buy-now:hover {
+      background-color: #e64a19;
+    }
+
+    .add-to-cart {
+      background-color: #008cba;
+    }
+
+    .add-to-cart:hover {
+      background-color: #007bb5;
+    }
+
     .back-link {
       display: block;
       text-align: center;
       margin-top: 30px;
-
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .back-link:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
@@ -72,6 +113,10 @@
       <div class="product-title">Moisturizer</div>
       <div class="price">₹499</div>
       <div class="rating">★★★★☆ (4.3)</div>
+      <div class="buttons">
+        <button class="buy-now">Buy Now</button>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
     </div>
 
     <div class="product-card">
@@ -79,6 +124,10 @@
       <div class="product-title">Face Wash</div>
       <div class="price">₹299</div>
       <div class="rating">★★★★☆ (4.1)</div>
+      <div class="buttons">
+        <button class="buy-now">Buy Now</button>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
     </div>
 
     <div class="product-card">
@@ -86,6 +135,10 @@
       <div class="product-title">Sunscreen SPF 50+</div>
       <div class="price">₹649</div>
       <div class="rating">★★★★☆ (4.5)</div>
+      <div class="buttons">
+        <button class="buy-now">Buy Now</button>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
     </div>
 
     <div class="product-card">
@@ -93,6 +146,10 @@
       <div class="product-title">Vitamin C Serum</div>
       <div class="price">₹799</div>
       <div class="rating">★★★★☆ (4.4)</div>
+      <div class="buttons">
+        <button class="buy-now">Buy Now</button>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
     </div>
 
     <div class="product-card">
@@ -100,6 +157,10 @@
       <div class="product-title">Clay Face Pack</div>
       <div class="price">₹350</div>
       <div class="rating">★★★☆☆ (3.9)</div>
+      <div class="buttons">
+        <button class="buy-now">Buy Now</button>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
     </div>
 
     <div class="product-card">
@@ -107,6 +168,10 @@
       <div class="product-title">Hydrating Toner</div>
       <div class="price">₹449</div>
       <div class="rating">★★★★☆ (4.2)</div>
+      <div class="buttons">
+        <button class="buy-now">Buy Now</button>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
     </div>
   </div>
   <a class="back-link" href="style_page.html">Back to Home</a>
