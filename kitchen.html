@@ -1,14 +1,9 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-
   <meta charset="UTF-8">
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>Kitchen Appliances</title>
-
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -31,9 +26,6 @@
       width: 220px;
       padding: 15px;
       text-align: center;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
     }
     .product-card img {
       width: 100%;
@@ -54,51 +46,120 @@
     }
     .rating {
       color: #ffa41c;
-      margin-bottom: 10px;
-    }
-    button.add-to-cart {
-      background-color: #ff9900;
-      border: none;
-      padding: 8px 15px;
-      border-radius: 5px;
-      font-weight: bold;
-      color: white;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-    }
-    button.add-to-cart:hover {
-      background-color: #e68a00;
     }
     .back-link {
       display: block;
       text-align: center;
       margin-top: 30px;
     }
+
+    /* New styles for buttons */
+    .actions {
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .actions button {
+      padding: 6px 12px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 14px;
+      transition: background-color 0.3s ease;
+    }
+
+    .add-to-cart {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    .add-to-cart:hover {
+      background-color: #45a049;
+    }
+
+    .buy-now {
+      background-color: #ff5722;
+      color: white;
+    }
+
+    .buy-now:hover {
+      background-color: #e64a19;
+    }
   </style>
-
 </head>
-
 <body>
-
   <h1>Kitchen Appliances</h1>
-
   <div class="products">
-
     <div class="product-card">
-      <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/mixer-grinder-juicer/m/x/z/glamore-4-jar-1000w-jet-black-mixer-grinder-bajaj-original-imah75djjx4frufr.jpeg?q=20&crop=false" alt="Mixer">
+      <img src="https://indoappliances.com/cdn/shop/files/FrontImage_7c6a0a88-7b23-468d-b791-f6bc5201c612.png?v=1733122394" alt="Mixer">
       <div class="product-title">Mixer Grinder</div>
       <div class="price">₹2,499</div>
       <div class="rating">★★★★☆ (4.2)</div>
-      <button class="add-to-cart">Add to Cart</button>
+      <div class="actions">
+        <button class="add-to-cart">Add to Cart</button>
+        <button class="buy-now">Buy Now</button>
+      </div>
     </div>
 
     <div class="product-card">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiToJBnzSSGcy8H1Fe-8y0QrKjBMKLl8_gQg&s" alt="Microwave">
+      <img src="https://img.etimg.com/thumb/width-1200,height-900,imgsize-47640,resizemode-75,msid-92847221/top-trending-products/kitchen-dining/microwave/best-microwave-oven-under-30000.jpg" alt="Microwave">
       <div class="product-title">Microwave Oven</div>
       <div class="price">₹5,999</div>
       <div class="rating">★★★☆☆ (3.9)</div>
-      <button class="add-to-cart">Add to Cart</button>
+      <div class="actions">
+        <button class="add-to-cart">Add to Cart</button>
+        <button class="buy-now">Buy Now</button>
+      </div>
     </div>
 
     <div class="product-card">
-      <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUSEhASFhUVFxUYEBYWFhYVEBYXFRUYFxUVFRUYHSggGBonGxUXITEhJSkrLi4uFx8zOTUtNygtLisBCgoKDg0OGhAQGDUlHyEtLS0tLS0tLS0xLTctLTctLSstLSs1LS4vLSstLS0vLS0rLy0tLS0rLS0tLzArLS8tLf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAABAIDBQYHAQj/xABFEAA
+      <img src="https://glenindia.com/cdn/shop/files/SA3014-GlenAutoPop-upToaster-min.jpg?v=1724750280" alt="Toaster">
+      <div class="product-title">Bread Toaster</div>
+      <div class="price">₹1,199</div>
+      <div class="rating">★★★★☆ (4.0)</div>
+      <div class="actions">
+        <button class="add-to-cart">Add to Cart</button>
+        <button class="buy-now">Buy Now</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://vestahomes.in/cdn/shop/files/122017.jpg?v=1712994276&width=1445" alt="Chopping Board">
+      <div class="product-title">Wooden Chopping Board</div>
+      <div class="price">₹399</div>
+      <div class="rating">★★★★☆ (4.1)</div>
+      <div class="actions">
+        <button class="add-to-cart">Add to Cart</button>
+        <button class="buy-now">Buy Now</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://www.rasoishop.com/cdn/shop/files/8901365401803.png?v=1713936069" alt="Gas Stove">
+      <div class="product-title">2 Burner Gas Stove</div>
+      <div class="price">₹3,499</div>
+      <div class="rating">★★★☆☆ (3.8)</div>
+      <div class="actions">
+        <button class="add-to-cart">Add to Cart</button>
+        <button class="buy-now">Buy Now</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://www.padminiappliances.com/cdn/shop/products/KT.jpg?v=1675323203&width=1946" alt="Electric Kettle">
+      <div class="product-title">Electric Kettle</div>
+      <div class="price">₹899</div>
+      <div class="rating">★★★★★ (4.5)</div>
+      <div class="actions">
+        <button class="add-to-cart">Add to Cart</button>
+        <button class="buy-now">Buy Now</button>
+      </div>
+    </div>
+  </div>
+
+  <a class="back-link" href="index.html">Back to Home</a>
+</body>
+</html>
