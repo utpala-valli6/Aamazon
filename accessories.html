@@ -56,12 +56,52 @@
     .rating {
       color: #ff9800;
       font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+    }
+
+    .buy-now,
+    .add-to-cart {
+      padding: 7px 14px;
+      font-size: 0.9em;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      color: white;
+      transition: background-color 0.3s ease;
+    }
+
+    .buy-now {
+      background-color: #ff5722;
+    }
+
+    .buy-now:hover {
+      background-color: #e64a19;
+    }
+
+    .add-to-cart {
+      background-color: #008cba;
+    }
+
+    .add-to-cart:hover {
+      background-color: #007bb5;
     }
 
     .back-link {
       display: block;
       text-align: center;
       margin-top: 30px;
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .back-link:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
@@ -73,6 +113,10 @@
       <div class="product-title">Stylish Bracelet</div>
       <div class="price">₹399</div>
       <div class="rating">★★★★☆ (4.2)</div>
+      <div class="buttons">
+        <button class="buy-now">Buy Now</button>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
     </div>
 
     <div class="product-card">
@@ -80,6 +124,10 @@
       <div class="product-title">Gold Plated Chain</div>
       <div class="price">₹599</div>
       <div class="rating">★★★★☆ (4.3)</div>
+      <div class="buttons">
+        <button class="buy-now">Buy Now</button>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
     </div>
 
     <div class="product-card">
@@ -87,6 +135,10 @@
       <div class="product-title">Elegant Earrings</div>
       <div class="price">₹299</div>
       <div class="rating">★★★★☆ (4.1)</div>
+      <div class="buttons">
+        <button class="buy-now">Buy Now</button>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
     </div>
 
     <div class="product-card">
@@ -94,6 +146,10 @@
       <div class="product-title">Classic Watch</div>
       <div class="price">₹999</div>
       <div class="rating">★★★★★ (4.6)</div>
+      <div class="buttons">
+        <button class="buy-now">Buy Now</button>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
     </div>
 
     <div class="product-card">
@@ -101,13 +157,21 @@
       <div class="product-title">UV Sunglasses</div>
       <div class="price">₹749</div>
       <div class="rating">★★★★☆ (4.4)</div>
+      <div class="buttons">
+        <button class="buy-now">Buy Now</button>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
     </div>
 
     <div class="product-card">
-      <img src="https://m.media-amazon.com/images/I/71KZJwrvmdL._AC_UF894,1000_QL80_.jpg" alt="Finger Ring">
+      <img src="https://m.media-amazon.com/images/I/71KZJwrvmdL.AC_UF894,1000_QL80.jpg" alt="Finger Ring">
       <div class="product-title">Finger Ring Set</div>
       <div class="price">₹349</div>
       <div class="rating">★★★☆☆ (3.9)</div>
+      <div class="buttons">
+        <button class="buy-now">Buy Now</button>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
     </div>
   </div>
 
