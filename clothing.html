@@ -56,22 +56,68 @@
     .rating {
       color: #f39c12;
       font-size: 14px;
+      margin-bottom: 10px;
     }
+
+    .buttons {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+    }
+
+    .buy-now,
+    .add-to-cart {
+      padding: 7px 14px;
+      font-size: 0.9em;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      color: white;
+      transition: background-color 0.3s ease;
+    }
+
+    .buy-now {
+      background-color: #e74c3c;
+    }
+
+    .buy-now:hover {
+      background-color: #c0392b;
+    }
+
+    .add-to-cart {
+      background-color: #27ae60;
+    }
+
+    .add-to-cart:hover {
+      background-color: #1e8449;
+    }
+
     .back-link {
       display: block;
       text-align: center;
       margin-top: 30px;
+      color: #2c3e50;
+      font-weight: bold;
+      text-decoration: none;
+    }
 
+    .back-link:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
   <h1>Trendy Clothing</h1>
   <div class="products">
     <div class="product-card">
-      <img src="https://m.media-amazon.com/images/I/31OYfcnQptL._AC_UY1100_.jpg" alt="T-Shirt">
+      <img src="https://m.media-amazon.com/images/I/31OYfcnQptL.AC_UY1100.jpg" alt="T-Shirt">
       <div class="product-title">Cotton T-Shirt</div>
       <div class="price">₹399</div>
       <div class="rating">★★★★☆ (4.2)</div>
+      <div class="buttons">
+        <button class="buy-now">Buy Now</button>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
     </div>
 
     <div class="product-card">
@@ -79,6 +125,10 @@
       <div class="product-title">Jeans</div>
       <div class="price">₹999</div>
       <div class="rating">★★★★☆ (4.4)</div>
+      <div class="buttons">
+        <button class="buy-now">Buy Now</button>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
     </div>
 
     <div class="product-card">
@@ -86,6 +136,10 @@
       <div class="product-title">Floral Summer Dress</div>
       <div class="price">₹749</div>
       <div class="rating">★★★★☆ (4.1)</div>
+      <div class="buttons">
+        <button class="buy-now">Buy Now</button>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
     </div>
 
     <div class="product-card">
@@ -93,6 +147,10 @@
       <div class="product-title">Kurti</div>
       <div class="price">₹1,299</div>
       <div class="rating">★★★★☆ (4.3)</div>
+      <div class="buttons">
+        <button class="buy-now">Buy Now</button>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
     </div>
 
     <div class="product-card">
@@ -100,6 +158,10 @@
       <div class="product-title">A-Line Dress</div>
       <div class="price">₹599</div>
       <div class="rating">★★★☆☆ (3.8)</div>
+      <div class="buttons">
+        <button class="buy-now">Buy Now</button>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
     </div>
 
     <div class="product-card">
@@ -107,6 +169,10 @@
       <div class="product-title">Casual Hoodie</div>
       <div class="price">₹899</div>
       <div class="rating">★★★★☆ (4.5)</div>
+      <div class="buttons">
+        <button class="buy-now">Buy Now</button>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
     </div>
   </div>
   <a class="back-link" href="style_page.html">Back to Home</a>
