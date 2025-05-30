@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Clothing Products</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f8;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .product-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      width: 220px;
+      padding: 15px;
+      text-align: center;
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-bottom: 1px solid #eee;
+      margin-bottom: 10px;
+    }
+
+    .product-title {
+      font-size: 16px;
+      font-weight: bold;
+      margin: 10px 0 5px;
+      color: #333;
+    }
+
+    .price {
+      color: #2ecc71;
+      font-weight: bold;
+      font-size: 15px;
+    }
+
+    .rating {
+      color: #f39c12;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Trendy Clothing</h1>
+  <div class="products">
+    <div class="product-card">
+      <img src="https://m.media-amazon.com/images/I/31OYfcnQptL._AC_UY1100_.jpg" alt="T-Shirt">
+      <div class="product-title">Cotton T-Shirt</div>
+      <div class="price">₹399</div>
+      <div class="rating">★★★★☆ (4.2)</div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://www.urbanofashion.com/cdn/shop/files/jeanloose-lblue-3.jpg?v=1708169302" alt="Jeans">
+      <div class="product-title">Jeans</div>
+      <div class="price">₹999</div>
+      <div class="rating">★★★★☆ (4.4)</div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://clothsvilla.com/cdn/shop/files/blue-floral-georgette-frock_4_1024x1024.jpg?v=1714568873" alt="Dress">
+      <div class="product-title">Floral Summer Dress</div>
+      <div class="price">₹749</div>
+      <div class="rating">★★★★☆ (4.1)</div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://assets.ajio.com/medias/sys_master/root/20241010/JKwz/67072bc9260f9c41e868d5fd/-473Wx593H-700561368-black-MODEL.jpg" alt="Kurti">
+      <div class="product-title">Kurti</div>
+      <div class="price">₹1,299</div>
+      <div class="rating">★★★★☆ (4.3)</div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://pinkfort.co/cdn/shop/files/PFDR1548BLAD_1_f8e6c406-293f-455d-8b48-01410fa09dbc_600x.jpg?v=1736149957" alt="Dress">
+      <div class="product-title">A-Line Dress</div>
+      <div class="price">₹599</div>
+      <div class="rating">★★★☆☆ (3.8)</div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://www.jiomart.com/images/product/original/rv8tyw43f8/codez-boys-hoodies-hoodies-printed-hoodies-casual-trendy-regular-fit-3-4y-product-images-rv8tyw43f8-0-202311201957.jpg?im=Resize=(500,630)" alt="Hoodie">
+      <div class="product-title">Casual Hoodie</div>
+      <div class="price">₹899</div>
+      <div class="rating">★★★★☆ (4.5)</div>
+    </div>
+  </div>
+</body>
+</html>
