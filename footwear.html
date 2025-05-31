@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Footwear</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f3f3;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .product-card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      width: 220px;
+      padding: 15px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: contain;
+      border-bottom: 1px solid #ddd;
+      margin-bottom: 10px;
+    }
+
+    .product-title {
+      font-size: 16px;
+      margin: 10px 0 5px;
+      font-weight: bold;
+    }
+
+    .price {
+      color: #b12704;
+      font-weight: bold;
+      font-size: 15px;
+      margin-bottom: 5px;
+    }
+
+    .rating {
+      color: #ffa41c;
+      margin-bottom: 15px;
+    }
+
+    .btn-group {
+      display: flex;
+      gap: 10px;
+      width: 100%;
+      justify-content: center;
+      margin-top: auto;
+    }
+
+    .btn {
+      flex: 1;
+      padding: 8px 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 14px;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-buy {
+      background-color: #28a745;
+      color: white;
+    }
+
+    .btn-buy:hover {
+      background-color: #218838;
+    }
+
+    .btn-cart {
+      background-color: #007bff;
+      color: white;
+    }
+
+    .btn-cart:hover {
+      background-color: #0056b3;
+    }
+
+    .back-link {
+      display: block;
+      text-align: center;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Footwear</h1>
+  <div class="products">
+
+    <div class="product-card">
+      <img src="https://img.tatacliq.com/images/i11/437Wx649H/MP000000018075209_437Wx649H_202306230145061.jpeg" alt="Running Shoes" />
+      <div class="product-title">Men's Running Shoes</div>
+      <div class="price">₹1,999</div>
+      <div class="rating">★★★★☆ (4.4)</div>
+      <div class="btn-group">
+        <button class="btn btn-buy">Buy Now</button>
+        <button class="btn btn-cart">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/shoe/j/u/w/7-1522-multi-shozie-multicolor-original-imagegdaad9g8mvs-bb.jpeg?q=90&crop=false" alt="Sneakers" />
+      <div class="product-title">Casual Sneakers</div>
+      <div class="price">₹1,299</div>
+      <div class="rating">★★★★☆ (4.1)</div>
+      <div class="btn-group">
+        <button class="btn btn-buy">Buy Now</button>
+        <button class="btn btn-cart">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://fausto.in/cdn/shop/products/FST_FOSMF-2046_TAN_1-MOOD.jpg?v=1683105956" alt="Formal Shoes" />
+      <div class="product-title">Men's Formal Shoes</div>
+      <div class="price">₹2,499</div>
+      <div class="rating">★★★★☆ (4.0)</div>
+      <div class="btn-group">
+        <button class="btn btn-buy">Buy Now</button>
+        <button class="btn btn-cart">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/slipper-flip-flop/i/a/i/-original-imah4s2ffu8uwhgg.jpeg?q=90&crop=false" alt="Flip Flops" />
+      <div class="product-title">Comfort Flip Flops</div>
+      <div class="price">₹499</div>
+      <div class="rating">★★★☆☆ (3.7)</div>
+      <div class="btn-group">
+        <button class="btn btn-buy">Buy Now</button>
+        <button class="btn btn-cart">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/26215172/2024/11/21/90c3ecec-7964-48b1-86ce-f56677c2713b1732181099839-Carlton-London-sports-Women-Textured-Sports-Sandals-42517321-1.jpg" alt="Sandals" />
+      <div class="product-title">Women's Sandals</div>
+      <div class="price">₹799</div>
+      <div class="rating">★★★★☆ (4.2)</div>
+      <div class="btn-group">
+        <button class="btn btn-buy">Buy Now</button>
+        <button class="btn btn-cart">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/19769276/2022/9/3/98ff8562-a3a2-4a8f-ace9-3cea6cc754de1662208568387WomenBlackSolidGenuineLeatherMid-TopChalseaBoots1.jpg" alt="Boots" />
+      <div class="product-title">Leather Boots</div>
+      <div class="price">₹3,299</div>
+      <div class="rating">★★★★☆ (4.5)</div>
+      <div class="btn-group">
+        <button class="btn btn-buy">Buy Now</button>
+        <button class="btn btn-cart">Add to Cart</button>
+      </div>
+    </div>
+
+  </div>
+
+  <a class="back-link" href="style_page.html">Back to Home</a>
+</body>
+
+</html>
