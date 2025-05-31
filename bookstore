@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f3f3;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .product-card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      width: 220px;
+      padding: 15px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: contain;
+      border-bottom: 1px solid #ddd;
+      margin-bottom: 10px;
+    }
+
+    .product-title {
+      font-size: 16px;
+      margin: 10px 0 5px;
+      font-weight: bold;
+    }
+
+    .price {
+      color: #b12704;
+      font-weight: bold;
+      font-size: 15px;
+      margin-bottom: 5px;
+    }
+
+    .rating {
+      color: #ffa41c;
+      margin-bottom: 15px;
+    }
+
+    .btn-group {
+      display: flex;
+      gap: 10px;
+      width: 100%;
+      justify-content: center;
+      margin-top: auto;
+    }
+
+    .btn {
+      flex: 1;
+      padding: 8px 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 14px;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-buy {
+      background-color: #28a745;
+      color: white;
+    }
+
+    .btn-buy:hover {
+      background-color: #218838;
+    }
+
+    .btn-cart {
+      background-color: #007bff;
+      color: white;
+    }
+
+    .btn-cart:hover {
+      background-color: #0056b3;
+    }
+
+    .back-link {
+      display: block;
+      text-align: center;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Book Store</h1>
+  <div class="products">
+
+    <div class="product-card">
+      <img src="https://m.media-amazon.com/images/I/61HAE8zahLL._AC_UF1000,1000_QL80_.jpg" alt="Book 1" />
+      <div class="product-title">The Alchemist</div>
+      <div class="price">₹299</div>
+      <div class="rating">★★★★☆ (4.5)</div>
+      <div class="btn-group">
+        <button class="btn btn-buy">Buy Now</button>
+        <button class="btn btn-cart">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://www.bookishadda.com/cdn/shop/files/230_f298f5c0-c116-4280-bef6-5d00db25b743.png?v=1701690525&width=1445" alt="Book 2" />
+      <div class="product-title">Atomic Habits</div>
+      <div class="price">₹449</div>
+      <div class="rating">★★★★★ (4.8)</div>
+      <div class="btn-group">
+        <button class="btn btn-buy">Buy Now</button>
+        <button class="btn btn-cart">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.meesho.com/images/products/322046220/ujavc_512.webp" alt="Book 3" />
+      <div class="product-title">Wings of Fire</div>
+      <div class="price">₹199</div>
+      <div class="rating">★★★★☆ (4.4)</div>
+      <div class="btn-group">
+        <button class="btn btn-buy">Buy Now</button>
+        <button class="btn btn-cart">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://www.bookishadda.com/cdn/shop/files/240_1f619642-5185-4dc5-8489-4c4bcb27c876.png?v=1701691051&width=1920" alt="Book 4" />
+      <div class="product-title">Rich Dad Poor Dad</div>
+      <div class="price">₹349</div>
+      <div class="rating">★★★★☆ (4.3)</div>
+      <div class="btn-group">
+        <button class="btn btn-buy">Buy Now</button>
+        <button class="btn btn-cart">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://www.bookishadda.com/cdn/shop/files/234_47316b25-e9b3-48d9-9ef5-ee6a4f32fc1a.png?v=1701690506&width=1946" alt="Book 5" />
+      <div class="product-title">Ikigai</div>
+      <div class="price">₹299</div>
+      <div class="rating">★★★★☆ (4.2)</div>
+      <div class="btn-group">
+        <button class="btn btn-buy">Buy Now</button>
+        <button class="btn btn-cart">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://sheetalonlinefashion.in/cdn/shop/files/mxt0y_512.webp?v=1726300554" alt="Book 6" />
+      <div class="product-title">Think Like a Monk</div>
+      <div class="price">₹399</div>
+      <div class="rating">★★★★☆ (4.6)</div>
+      <div class="btn-group">
+        <button class="btn btn-buy">Buy Now</button>
+        <button class="btn btn-cart">Add to Cart</button>
+      </div>
+    </div>
+
+  </div>
+
+  <a class="back-link" href="style_page.html">Back to Home</a>
+</body>
+
+</html>
