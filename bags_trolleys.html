@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bags and Trolleys</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f3f3;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .product-card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      width: 220px;
+      padding: 15px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: contain;
+      border-bottom: 1px solid #ddd;
+      margin-bottom: 10px;
+    }
+
+    .product-title {
+      font-size: 16px;
+      margin: 10px 0 5px;
+      font-weight: bold;
+    }
+
+    .price {
+      color: #b12704;
+      font-weight: bold;
+      font-size: 15px;
+      margin-bottom: 5px;
+    }
+
+    .rating {
+      color: #ffa41c;
+      margin-bottom: 15px;
+    }
+
+    .btn-group {
+      display: flex;
+      gap: 10px;
+      width: 100%;
+      justify-content: center;
+      margin-top: auto;
+    }
+
+    .btn {
+      flex: 1;
+      padding: 8px 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 14px;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-buy {
+      background-color: #28a745;
+      color: white;
+    }
+
+    .btn-buy:hover {
+      background-color: #218838;
+    }
+
+    .btn-cart {
+      background-color: #007bff;
+      color: white;
+    }
+
+    .btn-cart:hover {
+      background-color: #0056b3;
+    }
+
+    .back-link {
+      display: block;
+      text-align: center;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Bags and Trolleys</h1>
+  <div class="products">
+
+    <div class="product-card">
+      <img src="https://essente.in/wp-content/uploads/2022/02/bagpack-img1-1.jpg" alt="Backpack" />
+      <div class="product-title">Casual Laptop Backpack</div>
+      <div class="price">₹1,299</div>
+      <div class="rating">★★★★☆ (4.3)</div>
+      <div class="btn-group">
+        <button class="btn btn-buy">Buy Now</button>
+        <button class="btn btn-cart">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images-cdn.ubuy.co.in/65e12f38714d1a67bd26b8cb-hidds-laptop-backpacks-15-6-inch-college.jpg" alt="School Bag" />
+      <div class="product-title">Kids' School Bag</div>
+      <div class="price">₹799</div>
+      <div class="rating">★★★☆☆ (3.9)</div>
+      <div class="btn-group">
+        <button class="btn btn-buy">Buy Now</button>
+        <button class="btn btn-cart">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://www.theclownfish.com/cdn/shop/files/71J-wU_IUOL.jpg?v=1740552021" alt="Trolley" />
+      <div class="product-title">Hard Shell Trolley Bag</div>
+      <div class="price">₹3,499</div>
+      <div class="rating">★★★★☆ (4.2)</div>
+      <div class="btn-group">
+        <button class="btn btn-buy">Buy Now</button>
+        <button class="btn btn-cart">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://obliquedesigns.in/cdn/shop/files/beige3_fab44436-3861-43b5-8d12-23b0dc716e4e.jpg?v=1720782885" alt="Duffle Bag" />
+      <div class="product-title">Gym Duffle Bag</div>
+      <div class="price">₹999</div>
+      <div class="rating">★★★☆☆ (3.8)</div>
+      <div class="btn-group">
+        <button class="btn btn-buy">Buy Now</button>
+        <button class="btn btn-cart">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.meesho.com/images/products/59375083/zf92w_512.webp" alt="Sling Bag" />
+      <div class="product-title">Leather Sling Bag</div>
+      <div class="price">₹649</div>
+      <div class="rating">★★★★☆ (4.0)</div>
+      <div class="btn-group">
+        <button class="btn btn-buy">Buy Now</button>
+        <button class="btn btn-cart">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://img.tatacliq.com/images/i13/437Wx649H/MP000000019192792_437Wx649H_202309122140231.jpeg" alt="Luggage Set" />
+      <div class="product-title">3-Piece Luggage Set</div>
+      <div class="price">₹5,999</div>
+      <div class="rating">★★★★★ (4.5)</div>
+      <div class="btn-group">
+        <button class="btn btn-buy">Buy Now</button>
+        <button class="btn btn-cart">Add to Cart</button>
+      </div>
+    </div>
+
+  </div>
+
+  <a class="back-link" href="style_page.html">Back to Home</a>
+</body>
+
+</html>
